@@ -16,7 +16,7 @@ const useStyles = makeStyles({
       marginTop: -50,
       maxWidth: 500,
       margin: 'auto',
-      backgroundColor: 'rgba(52, 52, 52, .3)',
+      backgroundColor: 'rgba(52, 52, 52, .5)',
       color: 'rgba(24, 189, 206, 1)'
     },
     media: {
@@ -61,6 +61,7 @@ function Agenda() {
             <br></br>
             And more!
           </Typography> 
+          <br></br>
         </CardContent>
         <Button
     onClick={Registration}

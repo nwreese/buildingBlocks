@@ -1,8 +1,23 @@
 .background-image {
     background-color: #333;
-    height: 130vh;
+    color: #18BDCE;
+    height: 140vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin-top: -10vh;
+    font-size: larger;
 }
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: larger;
+  }
+  
+  .Shirt {
+    color: #18BDCE;
+    margin-top: -5vh;
+    font-size: larger;
+    
+  }

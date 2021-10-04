@@ -12,12 +12,9 @@ function App() {
   return(
 <>
      <Nav2 />
-   
       <Route exact path="/" component={ Home}/>
       <Route exact path="/Agenda" component={ Agenda}/>
       <Route exact path="/Registration" component={ Registration}/>
-      
-    
       </>
       
   );

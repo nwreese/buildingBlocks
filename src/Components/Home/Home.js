@@ -17,7 +17,7 @@ const useStyles = makeStyles({
       marginTop: -40,
       maxWidth: 840,
       margin: 'auto',
-      backgroundColor: 'rgba(52, 52, 52, .3)',
+      backgroundColor: 'rgba(52, 52, 52, .4)',
       color: 'rgba(24, 189, 206, 1)'
     },
     media: {
@@ -25,7 +25,7 @@ const useStyles = makeStyles({
       marginTop: 100
     },
     button: {
-      color: 'rgba(198, 56, 147, 1)',
+      color: 'rgba(24, 189, 206, 1)',
      
     },
     Typography: {
@@ -44,19 +44,25 @@ function Home() {
       }}>
         <div>
 <Card  className="Blocks" className={classes.root}>
+  <br></br>
+<CardContent>
+  <br></br>
+        <Typography gutterBottom variant="h4" component="h4">
+          <br></br>
+          <br></br>
+            Welcome to the Building Blocks 4 Kids Golf Outing!
+          </Typography> 
+        </CardContent>
       <CardActionArea >
         <CardMedia
           className={classes.media}
           image={logo}
           title="Nick Reese"
         />
-        <CardContent>
-        <Typography gutterBottom variant="h4" component="h4">
-            Welcome to the Building Blocks 4 Kids Golf Outing!
-          </Typography> 
-        </CardContent>
         <br></br>
       <Typography align='center'>
+        <br></br>
+        <br></br>
     <Button
     onClick={Registration}
       color='primary'
