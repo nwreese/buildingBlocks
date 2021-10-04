@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/buildingBlocks/static/css/main.f0c63f74.chunk.css",
-    "main.js": "/buildingBlocks/static/js/main.b5f2e849.chunk.js",
-    "main.js.map": "/buildingBlocks/static/js/main.b5f2e849.chunk.js.map",
-    "runtime-main.js": "/buildingBlocks/static/js/runtime-main.5dad0bda.js",
-    "runtime-main.js.map": "/buildingBlocks/static/js/runtime-main.5dad0bda.js.map",
+    "main.css": "/buildingBlocks/static/css/main.0ea9a53a.chunk.css",
+    "main.js": "/buildingBlocks/static/js/main.32b2d260.chunk.js",
+    "main.js.map": "/buildingBlocks/static/js/main.32b2d260.chunk.js.map",
+    "runtime-main.js": "/buildingBlocks/static/js/runtime-main.c066873f.js",
+    "runtime-main.js.map": "/buildingBlocks/static/js/runtime-main.c066873f.js.map",
     "static/css/2.ef9168ec.chunk.css": "/buildingBlocks/static/css/2.ef9168ec.chunk.css",
-    "static/js/2.0f79e00b.chunk.js": "/buildingBlocks/static/js/2.0f79e00b.chunk.js",
-    "static/js/2.0f79e00b.chunk.js.map": "/buildingBlocks/static/js/2.0f79e00b.chunk.js.map",
-    "static/js/3.b428e796.chunk.js": "/buildingBlocks/static/js/3.b428e796.chunk.js",
-    "static/js/3.b428e796.chunk.js.map": "/buildingBlocks/static/js/3.b428e796.chunk.js.map",
+    "static/js/2.f9392871.chunk.js": "/buildingBlocks/static/js/2.f9392871.chunk.js",
+    "static/js/2.f9392871.chunk.js.map": "/buildingBlocks/static/js/2.f9392871.chunk.js.map",
+    "static/js/3.fff45446.chunk.js": "/buildingBlocks/static/js/3.fff45446.chunk.js",
+    "static/js/3.fff45446.chunk.js.map": "/buildingBlocks/static/js/3.fff45446.chunk.js.map",
     "index.html": "/buildingBlocks/index.html",
     "static/css/2.ef9168ec.chunk.css.map": "/buildingBlocks/static/css/2.ef9168ec.chunk.css.map",
-    "static/css/main.f0c63f74.chunk.css.map": "/buildingBlocks/static/css/main.f0c63f74.chunk.css.map",
-    "static/js/2.0f79e00b.chunk.js.LICENSE.txt": "/buildingBlocks/static/js/2.0f79e00b.chunk.js.LICENSE.txt",
-    "static/media/golfcourse.0b3a4365.jpg": "/buildingBlocks/static/media/golfcourse.0b3a4365.jpg",
+    "static/css/main.0ea9a53a.chunk.css.map": "/buildingBlocks/static/css/main.0ea9a53a.chunk.css.map",
+    "static/js/2.f9392871.chunk.js.LICENSE.txt": "/buildingBlocks/static/js/2.f9392871.chunk.js.LICENSE.txt",
+    "static/media/golfcourse3.f2c825ad.jpg": "/buildingBlocks/static/media/golfcourse3.f2c825ad.jpg",
     "static/media/golfcourse4.58f579f7.jpg": "/buildingBlocks/static/media/golfcourse4.58f579f7.jpg",
     "static/media/golfcourse7.8aa3435d.jpg": "/buildingBlocks/static/media/golfcourse7.8aa3435d.jpg",
     "static/media/logo.6ce24c58.svg": "/buildingBlocks/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5dad0bda.js",
+    "static/js/runtime-main.c066873f.js",
     "static/css/2.ef9168ec.chunk.css",
-    "static/js/2.0f79e00b.chunk.js",
-    "static/css/main.f0c63f74.chunk.css",
-    "static/js/main.b5f2e849.chunk.js"
+    "static/js/2.f9392871.chunk.js",
+    "static/css/main.0ea9a53a.chunk.css",
+    "static/js/main.32b2d260.chunk.js"
   ]
 }
