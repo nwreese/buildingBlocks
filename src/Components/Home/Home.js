@@ -18,15 +18,15 @@ const useStyles = makeStyles({
       maxWidth: 840,
       margin: 'auto',
       backgroundColor: 'rgba(52, 52, 52, .3)',
-      color: 'rgba(24, 189, 206, 1)',
+      color: 'rgba(24, 189, 206, 1)'
     },
     media: {
       height: 350,
       marginTop: 100
     },
     button: {
-      color: 'rgba(255, 99, 71, 1)',
-      margin: 'auto'
+      color: 'rgba(198, 56, 147, 1)',
+     
     },
     Typography: {
         fontSize: 20
@@ -35,14 +35,16 @@ const useStyles = makeStyles({
 
 function Home() {
     const classes = useStyles();
-    
+    const Registration = () => {
+      window.location.href="#/Registration"
+  }
     return (
       <div className="background-image" style={{ 
         backgroundImage: `url(${img})` 
       }}>
         <div>
-<Card className="Blocks" className={classes.root}>
-      <CardActionArea>
+<Card  className="Blocks" className={classes.root}>
+      <CardActionArea >
         <CardMedia
           className={classes.media}
           image={logo}
@@ -53,6 +55,19 @@ function Home() {
             Welcome to the Building Blocks 4 Kids Golf Outing!
           </Typography> 
         </CardContent>
+        <br></br>
+      <Typography align='center'>
+    <Button
+    onClick={Registration}
+      color='primary'
+      size='large'
+      type='submit'
+      variant='contained'
+      className='button'
+     >
+      Sign Up
+    </Button>
+  </Typography>
       </CardActionArea>
     </Card>
     

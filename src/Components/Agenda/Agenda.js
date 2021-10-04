@@ -17,13 +17,13 @@ const useStyles = makeStyles({
       maxWidth: 500,
       margin: 'auto',
       backgroundColor: 'rgba(52, 52, 52, .3)',
-      color: 'rgba(198, 56, 147, 1)',
+      color: 'rgba(24, 189, 206, 1)'
     },
     media: {
       height: 350,
     },
     button: {
-      color: 'rgba(255, 99, 71, 1)',
+      color: 'rgba(198, 56, 147, 1)',
       margin: 'auto'
     },
     Typography: {
@@ -33,7 +33,10 @@ const useStyles = makeStyles({
 
 function Agenda() {
     const classes = useStyles();
-    
+    const Registration = () => {
+      window.location.href="#/Registration"
+  }
+
     return (
       <div className="background-image" style={{ 
         backgroundImage: `url(${img})` 
@@ -59,6 +62,16 @@ function Agenda() {
             And more!
           </Typography> 
         </CardContent>
+        <Button
+    onClick={Registration}
+      color='primary'
+      size='large'
+      type='submit'
+      variant='contained'
+      className='button'
+     >
+      Sign Up
+    </Button>
       </CardActionArea>
     </Card>
     

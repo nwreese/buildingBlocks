@@ -22,7 +22,8 @@ import MenuList from '@material-ui/core/MenuList';
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
-      color: 'rgba(255, 99, 71, 1)'
+      color: 'rgba(255, 99, 71, 1)',
+      marginTop: 20
     },
     menuButton: {
       marginRight: theme.spacing(2),
@@ -93,9 +94,7 @@ const useStyles = makeStyles((theme) => ({
         <Nav>
        
        <div className={classes.root}>
-      {/* <Paper className={classes.paper}>
-        
-      </Paper> */}
+     
       <div>
         <Button 
           className="button"
@@ -126,51 +125,9 @@ const useStyles = makeStyles((theme) => ({
         </Popper>
       </div>
     </div>
+ </Nav>
 
-        {/* <Navbar.Collapse> */}
-        {/* <Nav.Link href="/Works">Works</Nav.Link> */}
-        {/* <Nav.Link href="/Watching">Watching</Nav.Link>
-        <Nav.Link href="/SearchUsers">Find Friends</Nav.Link>
-        <Nav.Link href="/Profile">My Profile</Nav.Link> */}
-    {/* <Button className="signOutBtn" onClick={handleSignOut}>
-        Sign Out
-    </Button> */}
-        {/* </Navbar.Collapse> */}
-        </Nav>
-
-    //     <div className={classes.root} className="bar">
-    //     <AppBar  
-    //     className={`${
-    //       isCustomHeight && classes.customHeight
-    //     }`}
-    //     color="transparent" position="static">
-    //       <Toolbar>
-    //         <IconButton edge="start" className="smoothscroll">
-                
-    //             {/* <Nav.Link href="/Works">Works</Nav.Link> */}
-    //           <MenuIcon href="/Works" />
-    //           <MenuIcon href="/Works" />
-    //         </IconButton>
-    //         <Typography variant="h6" className={classes.title}>
-    //           Nick Reese
-    //         </Typography>
-    //         <Button color="inherit">Login</Button>
-    //       </Toolbar>
-    //     </AppBar>
-    //   </div>
-
-//       <nav id="nav-wrap">
-//   <ul id="nav" className="nav">
-//      <li className="current"><a className="smoothscroll" href="/">
-//        Nick Reese</a>
-//      </li>
-//      <li> <SocialIcon style={{height: 9, width: 9}} url="https://open.spotify.com/artist/4GGXD4wkhELLmPA3sTKHDD?si=KJUnG3HBSka-SzYrS8N0rQ" /></li>
-//      <li> <SocialIcon style={{height: 9, width: 9}} url="https://www.linkedin.com/in/nick-reese-fullstackwebdev/" /></li>
-//      <li> <SocialIcon bgColor="#F06000" fgColor="#333" style={{height: 9, width: 9}} url="https://github.com/nwreese" /></li>
-//      <li><a className="smoothscroll" href="/works/">Works</a></li>
-//   </ul>
-
-//   </nav>
+    
     );
     
   }
