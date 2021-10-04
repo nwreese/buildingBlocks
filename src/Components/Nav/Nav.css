@@ -1,0 +1,39 @@
+.socialIcon {
+    font-size: 10px;
+    color:  "#F06000";
+}
+.smoothscroll {
+    color:  "#F06000";
+    background-color: "#333";
+    
+}
+.nav{
+    background-color: "#333";
+}
+
+.bar {
+    color:  "#F06000";
+    background-color: "#333";
+}
+
+
+
+.navbar-brand {
+    text-transform: none;
+    color: #18BDCE !important;
+    padding:10px;
+}
+
+.button {
+    color: #18BDCE !important;
+    font-size: medium !important;
+    background-color: #333 !important;
+    /* margin-left: 90vw !important; */
+  
+}
+
+.menu {
+    color: #18BDCE !important;
+    font-size: medium !important;
+    background-color: #333 !important;
+}

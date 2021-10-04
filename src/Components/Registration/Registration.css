@@ -1,0 +1,7 @@
+.background-image {
+    background-color: #333;
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
