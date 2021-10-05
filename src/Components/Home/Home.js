@@ -8,7 +8,6 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import { SocialIcon } from 'react-social-icons';
 import logo from './bb4k-stacked-logo.png';
 import img from "./golfcourse4.jpg";
 
@@ -17,7 +16,7 @@ const useStyles = makeStyles({
       marginTop: -40,
       maxWidth: 840,
       margin: 'auto',
-      backgroundColor: 'rgba(52, 52, 52, .4)',
+      backgroundColor: 'rgba(255, 255, 255, .1)',
       color: 'rgba(24, 189, 206, 1)'
     },
     media: {

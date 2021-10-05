@@ -16,8 +16,12 @@
   }
   
   .Shirt {
-    color: #18BDCE;
+    color: #18BDCE !important;
     margin-top: -5vh;
-    font-size: larger;
+    font-size: larger !important;
     
   }
+ .Blocks {
+  color: #18BDCE !important;
+ 
+ }

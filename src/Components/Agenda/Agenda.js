@@ -58,7 +58,7 @@ function Agenda() {
             Join us for 18 holes of golf!
             </Typography> 
             <Typography className={classes.Typography} gutterBottom variant="h6" component="h4">
-            Help us raise money for Building Blocks 4 Kids! 
+            Help us raise money for Building Blocks 4 Kids
             <br></br>
             Prizes included!
             <br></br>
