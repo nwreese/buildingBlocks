@@ -57,7 +57,7 @@ export default function Registration() {
 
   const handleChange = e => setValue(e.target.value);
   const Registration = () => {
-    window.location.href="/"
+    window.location.href="#/"
 }
 
   return (
