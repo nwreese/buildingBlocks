@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/buildingBlocks/static/css/main.73d51479.chunk.css",
-    "main.js": "/buildingBlocks/static/js/main.f436c047.chunk.js",
-    "main.js.map": "/buildingBlocks/static/js/main.f436c047.chunk.js.map",
+    "main.js": "/buildingBlocks/static/js/main.1f49b6dc.chunk.js",
+    "main.js.map": "/buildingBlocks/static/js/main.1f49b6dc.chunk.js.map",
     "runtime-main.js": "/buildingBlocks/static/js/runtime-main.c066873f.js",
     "runtime-main.js.map": "/buildingBlocks/static/js/runtime-main.c066873f.js.map",
     "static/css/2.ef9168ec.chunk.css": "/buildingBlocks/static/css/2.ef9168ec.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.ef9168ec.chunk.css",
     "static/js/2.6b5edf9b.chunk.js",
     "static/css/main.73d51479.chunk.css",
-    "static/js/main.f436c047.chunk.js"
+    "static/js/main.1f49b6dc.chunk.js"
   ]
 }
