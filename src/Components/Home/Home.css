@@ -20,4 +20,14 @@
 
 .Welcome {
   color:  #C63893;
+  background-color: rgba(52, 52, 52, .9);
+}
+
+.regButton {
+  color: #C63893;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }

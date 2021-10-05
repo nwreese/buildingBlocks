@@ -25,9 +25,12 @@ const useStyles = makeStyles({
       marginTop: 100
     },
     button: {
-      color: 'rgba(24, 189, 206, 1)',
-     
-    },
+    justifyContent: 'center',
+    marginTop: 60,
+    marginLeft: 325,
+    backgroundColor: 'rgba(52, 52, 52, 1)',
+    color: 'rgba(198, 56, 147, 1)'
+     },
     Typography: {
         fontSize: 20
     }
@@ -47,43 +50,45 @@ function Home() {
   <br></br>
 <CardContent>
   <br></br>
+  <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
         <Typography className="Welcome" gutterBottom variant="h4" component="h4">
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
             Welcome to the Building Blocks 4 Kids Golf Outing!
           </Typography> 
+          
         </CardContent>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <Button 
+    onClick={Registration}
+      color='primary'
+      size='large'
+      type='submit'
+      variant='contained'
+      className={classes.button}
+     >
+      Sign Up
+    </Button>
+        <CardMedia
+          className={classes.media}
+          image={logo2}
+          title="Nick Reese"
+        />
       <CardActionArea >
         <CardMedia
           className={classes.media}
           image={logo}
           title="Nick Reese"
         />
-        <br></br>
       <Typography align='center'>
-        <br></br>
-        <br></br>
-    <Button
-    onClick={Registration}
-      color='primary'
-      size='large'
-      type='submit'
-      variant='contained'
-      className='button'
-     >
-      Sign Up
-    </Button>
   </Typography>
-<br></br>
-  <CardMedia
-          className={classes.media}
-          image={logo2}
-          title="Nick Reese"
-        />
-
-      </CardActionArea>
+</CardActionArea>
     </Card>
     
         </div>
