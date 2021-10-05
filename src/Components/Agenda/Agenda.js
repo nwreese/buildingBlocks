@@ -49,11 +49,16 @@ function Agenda() {
       window.location.href="#/Registration"
   }
 
+
+
     return (
       <div className="agenda-image" style={{ 
         backgroundImage: `url(${img})` 
       }}>
         <div>
+
+
+          
           <Card className="Blocks" className={classes.root}>
       <CardActionArea className="agenda">
         <CardContent>

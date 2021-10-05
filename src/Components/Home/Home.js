@@ -10,10 +10,11 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import logo from './bb4k-stacked-logo.png';
 import img from "./golfcourse4.jpg";
+import logo2 from './golfkids3.jpg';
 
 const useStyles = makeStyles({
     root: {
-      marginTop: -40,
+      marginTop: -60,
       maxWidth: 840,
       margin: 'auto',
       backgroundColor: 'rgba(255, 255, 255, .1)',
@@ -38,7 +39,7 @@ function Home() {
       window.location.href="#/Registration"
   }
     return (
-      <div className="background-image" style={{ 
+      <div className="home-image" style={{ 
         backgroundImage: `url(${img})` 
       }}>
         <div>
@@ -46,7 +47,9 @@ function Home() {
   <br></br>
 <CardContent>
   <br></br>
-        <Typography gutterBottom variant="h4" component="h4">
+        <Typography className="Welcome" gutterBottom variant="h4" component="h4">
+          <br></br>
+          <br></br>
           <br></br>
           <br></br>
             Welcome to the Building Blocks 4 Kids Golf Outing!
@@ -73,6 +76,13 @@ function Home() {
       Sign Up
     </Button>
   </Typography>
+<br></br>
+  <CardMedia
+          className={classes.media}
+          image={logo2}
+          title="Nick Reese"
+        />
+
       </CardActionArea>
     </Card>
     
