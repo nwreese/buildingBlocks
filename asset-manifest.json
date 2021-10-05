@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/buildingBlocks/static/css/main.cf9dfc56.chunk.css",
+    "main.css": "/buildingBlocks/static/css/main.e187b30e.chunk.css",
     "main.js": "/buildingBlocks/static/js/main.1b0cc21b.chunk.js",
     "main.js.map": "/buildingBlocks/static/js/main.1b0cc21b.chunk.js.map",
     "runtime-main.js": "/buildingBlocks/static/js/runtime-main.c066873f.js",
@@ -12,7 +12,7 @@
     "static/js/3.fff45446.chunk.js.map": "/buildingBlocks/static/js/3.fff45446.chunk.js.map",
     "index.html": "/buildingBlocks/index.html",
     "static/css/2.ef9168ec.chunk.css.map": "/buildingBlocks/static/css/2.ef9168ec.chunk.css.map",
-    "static/css/main.cf9dfc56.chunk.css.map": "/buildingBlocks/static/css/main.cf9dfc56.chunk.css.map",
+    "static/css/main.e187b30e.chunk.css.map": "/buildingBlocks/static/css/main.e187b30e.chunk.css.map",
     "static/js/2.9f2a1ab5.chunk.js.LICENSE.txt": "/buildingBlocks/static/js/2.9f2a1ab5.chunk.js.LICENSE.txt",
     "static/media/golfcourse3.f2c825ad.jpg": "/buildingBlocks/static/media/golfcourse3.f2c825ad.jpg",
     "static/media/golfcourse4.58f579f7.jpg": "/buildingBlocks/static/media/golfcourse4.58f579f7.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.c066873f.js",
     "static/css/2.ef9168ec.chunk.css",
     "static/js/2.9f2a1ab5.chunk.js",
-    "static/css/main.cf9dfc56.chunk.css",
+    "static/css/main.e187b30e.chunk.css",
     "static/js/main.1b0cc21b.chunk.js"
   ]
 }
