@@ -8,15 +8,23 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import logo from './bb4k-stacked-logo.png';
+import logo from './golfswag.jpg';
+import logo2 from './golfswag3.jpg';
 import img from "./golfcourse7.jpg";
 
 const useStyles = makeStyles({
     root: {
-      marginTop: -50,
+      marginTop: -60,
       maxWidth: 500,
       margin: 'auto',
       backgroundColor: 'rgba(52, 52, 52, .5)',
+      color: 'rgba(24, 189, 206, 1)'
+    },
+    root2:{
+      marginTop: 0,
+      maxWidth: 500,
+      margin: 'auto',
+      backgroundColor: 'rgba(52, 52, 52, .9)',
       color: 'rgba(24, 189, 206, 1)'
     },
     media: {
@@ -38,15 +46,14 @@ function Agenda() {
   }
 
     return (
-      <div className="background-image" style={{ 
+      <div className="agenda-image" style={{ 
         backgroundImage: `url(${img})` 
       }}>
         <div>
           <Card className="Blocks" className={classes.root}>
       <CardActionArea className="agenda">
         <CardContent>
-          <br></br>
-          <br></br>
+          
         <Typography className={classes.Typography} gutterBottom variant="h4" component="h4">
             Join us for 18 holes of golf!
             </Typography> 
@@ -73,9 +80,26 @@ function Agenda() {
      >
       Sign Up
     </Button>
+    <br></br>
+    <Card className="Blocks" className={classes.root2}>
+<CardMedia
+          className={classes.media}
+          image={logo}
+          title="Nick Reese"
+        />
+</Card>
+<br></br>
+<Card className="Blocks" className={classes.root2}>
+<CardMedia
+          className={classes.media}
+          image={logo2}
+          title="Nick Reese"
+        />
+</Card>
       </CardActionArea>
-    </Card>
-    
+      </Card>
+
+   
         </div>
         </div>
     )

@@ -56,6 +56,9 @@ export default function Registration() {
   const [value, setValue] = useState("");
 
   const handleChange = e => setValue(e.target.value);
+  const Registration = () => {
+    window.location.href="/"
+}
 
   return (
     <div className="App">
@@ -103,6 +106,16 @@ export default function Registration() {
       </FormControl>
       <br></br>
       <br></br>
+      <Button
+    onClick={Registration}
+      color='primary'
+      size='large'
+      type='submit'
+      variant='contained'
+      className='button'
+     >
+      Register
+    </Button>
  </Card>
 <br></br>
 <br></br>
