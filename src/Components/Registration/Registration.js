@@ -50,6 +50,7 @@ export default function Registration() {
 
   const handleChange = e => setValue(e.target.value);
   const Registration = () => {
+    window.alert("Thank you for registering")
     window.location.href="#/"
 }
 
