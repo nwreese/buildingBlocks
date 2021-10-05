@@ -112,6 +112,7 @@ export default function Registration() {
  </Card>
 <br></br>
 <br></br>
+<br></br>
 <Card className="Blocks" className={classes.root2}>
 <CardMedia
           className={classes.media}
