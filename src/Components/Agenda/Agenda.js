@@ -10,7 +10,11 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import logo from './golfswag.jpg';
 import logo2 from './golfswag3.jpg';
+import logo3 from './golfswag4.jpg';
+import logo4 from './golfswag5.jpg';
 import img from "./golfcourse7.jpg";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 const useStyles = makeStyles({
     root: {
@@ -81,21 +85,51 @@ function Agenda() {
       Sign Up
     </Button>
     <br></br>
-    <Card className="Blocks" className={classes.root2}>
-<CardMedia
-          className={classes.media}
-          image={logo}
-          title="Nick Reese"
-        />
-</Card>
-<br></br>
-<Card className="Blocks" className={classes.root2}>
-<CardMedia
-          className={classes.media}
-          image={logo2}
-          title="Nick Reese"
-        />
-</Card>
+    <br></br>
+    <Carousel fade>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={logo}
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3 className="carousel" >Swag Bag</h3>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={logo2}
+      alt="Second slide"
+    />
+
+    <Carousel.Caption>
+      <h3 className="carousel">Swag Bag</h3>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={logo3}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3 className="carousel">Swag Bag</h3>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={logo4}
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3 className="carousel" >Swag Bag</h3>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
       </CardActionArea>
       </Card>
 

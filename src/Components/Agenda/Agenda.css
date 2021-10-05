@@ -13,4 +13,9 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
-    
+
+  .carousel {
+    color: #C63893 !important;
+    font-size: 45 !important;
+    background-color: rgba(52, 52, 52, .9);
+  }

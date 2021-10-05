@@ -6,7 +6,7 @@ import Nav2 from './components/Nav/Nav';
 import { BrowserRouter as Router, Route,Switch } from "react-router-dom";
 import Agenda from './components/Agenda/Agenda';
 import Registration from './components/Registration/Registration';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return(
