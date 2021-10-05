@@ -1,32 +1,33 @@
 {
   "files": {
     "main.css": "/buildingBlocks/static/css/main.bdb4d460.chunk.css",
-    "main.js": "/buildingBlocks/static/js/main.d7db7296.chunk.js",
-    "main.js.map": "/buildingBlocks/static/js/main.d7db7296.chunk.js.map",
+    "main.js": "/buildingBlocks/static/js/main.f7caf780.chunk.js",
+    "main.js.map": "/buildingBlocks/static/js/main.f7caf780.chunk.js.map",
     "runtime-main.js": "/buildingBlocks/static/js/runtime-main.c8f2031b.js",
     "runtime-main.js.map": "/buildingBlocks/static/js/runtime-main.c8f2031b.js.map",
     "static/css/2.184f8ef6.chunk.css": "/buildingBlocks/static/css/2.184f8ef6.chunk.css",
-    "static/js/2.241add29.chunk.js": "/buildingBlocks/static/js/2.241add29.chunk.js",
-    "static/js/2.241add29.chunk.js.map": "/buildingBlocks/static/js/2.241add29.chunk.js.map",
+    "static/js/2.3391ccd0.chunk.js": "/buildingBlocks/static/js/2.3391ccd0.chunk.js",
+    "static/js/2.3391ccd0.chunk.js.map": "/buildingBlocks/static/js/2.3391ccd0.chunk.js.map",
     "static/js/3.115a9424.chunk.js": "/buildingBlocks/static/js/3.115a9424.chunk.js",
     "static/js/3.115a9424.chunk.js.map": "/buildingBlocks/static/js/3.115a9424.chunk.js.map",
     "index.html": "/buildingBlocks/index.html",
     "static/css/2.184f8ef6.chunk.css.map": "/buildingBlocks/static/css/2.184f8ef6.chunk.css.map",
     "static/css/main.bdb4d460.chunk.css.map": "/buildingBlocks/static/css/main.bdb4d460.chunk.css.map",
-    "static/js/2.241add29.chunk.js.LICENSE.txt": "/buildingBlocks/static/js/2.241add29.chunk.js.LICENSE.txt",
+    "static/js/2.3391ccd0.chunk.js.LICENSE.txt": "/buildingBlocks/static/js/2.3391ccd0.chunk.js.LICENSE.txt",
     "static/media/golfcourse3.f2c825ad.jpg": "/buildingBlocks/static/media/golfcourse3.f2c825ad.jpg",
     "static/media/golfcourse4.58f579f7.jpg": "/buildingBlocks/static/media/golfcourse4.58f579f7.jpg",
     "static/media/golfcourse7.8aa3435d.jpg": "/buildingBlocks/static/media/golfcourse7.8aa3435d.jpg",
     "static/media/golfswag.e30ebf6a.jpg": "/buildingBlocks/static/media/golfswag.e30ebf6a.jpg",
     "static/media/golfswag3.8d9a7ba2.jpg": "/buildingBlocks/static/media/golfswag3.8d9a7ba2.jpg",
     "static/media/golfswag4.e93ac10f.jpg": "/buildingBlocks/static/media/golfswag4.e93ac10f.jpg",
+    "static/media/golfswag5.33ae611e.jpg": "/buildingBlocks/static/media/golfswag5.33ae611e.jpg",
     "static/media/logo.6ce24c58.svg": "/buildingBlocks/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c8f2031b.js",
     "static/css/2.184f8ef6.chunk.css",
-    "static/js/2.241add29.chunk.js",
+    "static/js/2.3391ccd0.chunk.js",
     "static/css/main.bdb4d460.chunk.css",
-    "static/js/main.d7db7296.chunk.js"
+    "static/js/main.f7caf780.chunk.js"
   ]
 }
