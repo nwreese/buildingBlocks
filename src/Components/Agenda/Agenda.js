@@ -13,6 +13,7 @@ import logo4 from './golfswag5.jpg';
 import img from "./golfcourse7.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
+import WebFont from 'webfontloader';
 
 const useStyles = makeStyles({
     root: {
@@ -47,7 +48,11 @@ function Agenda() {
       window.location.href="#/Registration"
   }
 
-
+  WebFont.load({
+    google: {
+      families: ['PT Sans Web:300,400,700', 'sans-serif']
+    }
+  });
 
     return (
       <div className="agenda-image" style={{ 

@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route} from "react-router-dom";
 import Agenda from './components/Agenda/Agenda';
 import Registration from './components/Registration/Registration';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
 
 function App() {
   return(

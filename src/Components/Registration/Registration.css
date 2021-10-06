@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 .background-image {
     background-color: #333;
     color: #18BDCE;
@@ -13,15 +14,17 @@
     font-family: sans-serif;
     text-align: center;
     font-size: larger;
+    font-family: 'PT Sans', sans-serif !important;
   }
   
   .Shirt {
     color: #18BDCE !important;
     margin-top: -5vh;
     font-size: larger !important;
-    
+    font-family: 'PT Sans', sans-serif !important;
   }
  .Blocks {
   color: #18BDCE !important;
  background-color:#C63893 ;
+ font-family: 'PT Sans', sans-serif !important;
  }

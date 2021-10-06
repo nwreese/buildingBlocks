@@ -1,5 +1,9 @@
+.App {
+  font-family: 'PT Sans', sans-serif !important;
+}
 .Blocks {
   margin-top: 10vh;
+  font-family: 'PT Sans', sans-serif !important;
 }
  
 .button {
@@ -9,10 +13,11 @@
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  font-family: 'PT Sans', sans-serif !important;
 }
   
 .home-image {
-  height: 210vh;
+  height: 215vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -21,6 +26,8 @@
 .Welcome {
   color:  #C63893;
   background-color: rgba(52, 52, 52, .9);
+  font-family: 'PT Sans', sans-serif !important;
+  position: absolute;
 }
 
 .regButton {
@@ -30,4 +37,5 @@
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  font-family: 'PT Sans', sans-serif !important;
 }

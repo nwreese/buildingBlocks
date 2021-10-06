@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 .socialIcon {
     font-size: 10px;
     color:  "#F06000";
@@ -22,6 +23,7 @@
     text-transform: none;
     color: #18BDCE !important;
     padding:10px;
+    font-family: 'PT Sans', sans-serif !important;
 }
 
 .button {
@@ -29,6 +31,7 @@
     font-size: medium !important;
     background-color: #333 !important;
     /* margin-left: 90vw !important; */
+    font-family: 'PT Sans', sans-serif !important;
   
 }
 
@@ -36,4 +39,5 @@
     color: #C63893 !important;
     font-size: medium !important;
     background-color: #333 !important;
+    font-family: 'PT Sans', sans-serif !important;
 }

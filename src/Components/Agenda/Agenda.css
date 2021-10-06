@@ -1,3 +1,4 @@
+
 .agenda-image {
     height: 175vh;
     background-repeat: no-repeat;
@@ -12,10 +13,28 @@
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    font-family: 'PT Sans', sans-serif !important;
   }
 
   .carousel {
     color: #C63893 !important;
     font-size: 45 !important;
     background-color: rgba(52, 52, 52, .9);
+    font-family: 'PT Sans', sans-serif !important;
   }
+
+.h4 {
+  font-family: 'PT Sans', sans-serif !important;
+}
+
+.typetext {
+  font-family: 'PT Sans', sans-serif !important;
+}
+
+.agenda {
+  font-family: 'PT Sans', sans-serif !important;
+}
+
+.Blocks{
+  font-family: 'PT Sans', sans-serif !important;
+}

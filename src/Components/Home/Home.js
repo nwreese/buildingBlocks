@@ -10,6 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import logo from './bb4k-stacked-logo.png';
 import img from "./golfcourse4.jpg";
 import logo2 from './golfkids3.jpg';
+import WebFont from 'webfontloader';
 
 const useStyles = makeStyles({
     root: {
@@ -17,7 +18,8 @@ const useStyles = makeStyles({
       maxWidth: 840,
       margin: 'auto',
       backgroundColor: 'rgba(255, 255, 255, .1)',
-      color: 'rgba(24, 189, 206, 1)'
+      color: 'rgba(24, 189, 206, 1)',
+      font: WebFont
     },
     media: {
       height: 350,
@@ -31,21 +33,31 @@ const useStyles = makeStyles({
     color: 'rgba(198, 56, 147, 1)'
      },
     Typography: {
-        fontSize: 20
+        fontSize: 20,
+        font: WebFont
     }
   });
+
 
 function Home() {
     const classes = useStyles();
     const Registration = () => {
       window.location.href="#/Registration"
   }
+ 
+  WebFont.load({
+    google: {
+      families: ['PT Sans Web:300,400,700', 'sans-serif']
+    }
+  });
+
     return (
-      <div className="home-image" style={{ 
+      
+      <div  className="home-image" style={{ 
         backgroundImage: `url(${img})` 
       }}>
         <div>
-<Card  className="Blocks" className={classes.root}>
+<Card className="Blocks" className={classes.root}>
   <br></br>
 <CardContent>
   <br></br>
